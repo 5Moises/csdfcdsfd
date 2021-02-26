@@ -1,0 +1,71 @@
+/*
+Theme Name: Lolimsa Child
+Description: lolimsa
+Author: lolimsa
+Template: lolimsa
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+#layerslider_1{
+	z-index: 1;
+}
+#layerslider_2{
+	z-index: 1;
+}
+#layerslider_3{
+	z-index: 1;
+}
+
+
+
+.row .row:not(.row-collapse) {
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+
+.counter{
+    font-size: 60px;
+    font-weight: bold;
+}
+.texto{
+    margin-top: 35px;
+    float: right;
+    width: 150px;
+    line-height: 20px;
+}
+.h4, h4 {
+    font-size: 1.125em;
+    color: #0067E7;
+    font-weight: 100!important;
+    margin-bottom: 0px;
+}
+
+
+
+
+.imagen img{
+    position: absolute;
+        bottom: -480px;
+}
+#text-4 img{
+  -webkit-transition:all .3s ease-out;
+  -moz-transition:all .3s ease-out;
+  -ms-transition:all .3s ease-out;
+  -o-transition:all .3s ease-out;
+  transition:all .3s ease-out;
+}
+
+#text-4 img:hover {
+  -webkit-transform:translate(0px,-10px);
+  -moz-transform:translate(0px,-10px);
+  -ms-transform:translate(0px,-10px);
+  -o-transform:translate(0px,-10px);
+  transform:translate(0px,-10px);
+}
+
+
+
+}

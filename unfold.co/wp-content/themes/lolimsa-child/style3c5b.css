@@ -1,0 +1,1207 @@
+/*
+Theme Name: Lolimsa Child
+Description: lolimsa
+Author: lolimsa
+Template: lolimsa
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+#layerslider_1{
+	z-index: 1;
+}
+#layerslider_2{
+	z-index: 1;
+}
+#layerslider_3{
+	z-index: 1;
+}
+
+.nav-vertical.nav-tabs>li.active>a {
+    border-left: 0px solid #446084;
+}
+.nav-tabs>li>a {
+    border-top: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 55px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-tabs+.tab-panels {
+    border: 0px solid #ddd;
+    background-color: #fff;
+    padding: 30px 70px;
+}
+
+.proyectos ul li:nth-child(0n+1):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-peru.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+2):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-colombia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+3):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-mexico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+4):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-republicadominicana.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+5):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-bolivia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+6):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-ecuador.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+7):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-venezuela.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+8):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-argentina.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+9):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-brasil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+10):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-costarica.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+11):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-guatemala.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+12):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-honduras.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+13):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-puerto-rico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.proyectos ul li:nth-child(0n+14):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/proyectos-icono-panama.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 6px;
+    left: 10px;
+    z-index: 10;
+}
+.comunidad .nav-vertical li:nth-child(0n+1):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/pdf.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 12px;
+    left: 10px;
+    z-index: 10;
+}
+.comunidad .nav-vertical li:nth-child(0n+2):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 12px;
+    left: 10px;
+    z-index: 10;
+}
+.comunidad .nav-vertical li:nth-child(0n+3):before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/text-lines.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 30px;
+    bottom: 12px;
+    left: 10px;
+    z-index: 10;
+}
+.nav .current-menu-item:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/linea-menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 37px;
+    height: 5px;
+    bottom: 22px;
+    right: -4px;
+    z-index: 10;
+}
+.dark .nav>li>a:hover:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/linea-menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 37px;
+    height: 5px;
+    bottom: 22px;
+    right: -4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+1) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+2) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+3) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+4) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+5) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+6) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+7) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+8) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+9) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+10) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+11) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+12) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-12.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+13) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-13.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+14) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+15) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+16) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+17) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+18) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-18.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+19) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-19.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+20) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-20.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+21) a:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/azul-21.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 10;
+}
+.numeros .accordion .accordion-item:nth-child(0n+1) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+2) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+3) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+4) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+5) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+6) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+7) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+8) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+9) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+10) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+11) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+12) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-12.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+13) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-13.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+14) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+15) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-15.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+16) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+17) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+18) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-18.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+19) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-19.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+20) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-20.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.numeros .accordion .accordion-item:nth-child(0n+21) .active:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/gris-21.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    bottom: 8px;
+    left: 4px;
+    z-index: 11;
+}
+.off-canvas-center .nav-sidebar.nav-vertical>li>a {
+    padding-right: 60px;
+    padding-left: 30px;
+}
+.justificado p{
+    text-align: justify;
+}
+.off-canvas .nav-vertical>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.row .row:not(.row-collapse) {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+.caldera-grid .form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ee8f02!important;
+    border-radius: 0px!important;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075)!important;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075)!important;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.caldera-grid .btn-default {
+    color: #fff!important;
+    background-color: #ee8f02!important;
+    border-color: #ee8f02!important;
+    border-radius: 50px!important;
+    text-transform: initial!important;
+    font-weight: 700!important;
+    padding: 10px 30px!important;
+}
+.off-canvas .sidebar-menu {
+    padding: 30px 0;
+    float: right;
+    text-align: right;
+}
+.tabbed-content .nav-vertical {
+    padding-top: 0;
+    width: 25%;
+    margin-right: 20px;
+}
+.nav-uppercase>li>a {
+    letter-spacing: .02em;
+    text-transform: inherit;
+    font-weight: bolder;
+}
+.proyectos strong{
+    color: #0067E7;
+}
+.proyectos p{
+    margin-bottom: 0px;
+}
+#main-menu .text-center .button:last-of-type {
+    margin-right: 60px !important;
+    margin-bottom: 50px;
+}
+.mfp-close {
+    cursor: pointer;
+    outline: none;
+    z-index: 1046;
+    box-shadow: none;
+    position: fixed;
+    top: 60px;
+    right: 9.5%;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0;
+    padding: 0;
+    mix-blend-mode: difference;
+    margin: 0 !important;
+    background-color: white;
+    border-radius: 50px;
+    color: #065ecb;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    min-height: 0;
+    width: 40px;
+    -webkit-backface-visibility: hidden;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, monospace;
+    transition: opacity .3s, transform .3s;
+    transform: translateY(50%) translateZ(1px);
+}
+.nav-vertical .social-icons, .nav-vertical .header-button {
+    width: 100%;
+    top: -20px;
+    position: absolute;
+}
+.mfp-container:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/menu-pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+
+} 
+.mfp-container:before{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/logoblanco.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 210px;
+    height: 42px;
+    top: 6%;
+    left: 10.5%;
+    z-index: 10;
+
+} 
+
+.off-canvas-center .mfp-content {
+    padding-top: 50px;
+    max-width: 1100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+input[type='submit'], input[type='submit'].button, input[type='submit'], .primary {
+    background-color: #0067E7;
+}
+.button, button, input[type='submit'], input[type='reset'], input[type='button'] {
+    line-height: 3em;
+    min-height: 3.5em;
+    padding: 0 1.2em;
+
+}
+.button.icon {
+    min-width: 3.4em;
+}
+.button.icon i {
+    font-size: 1.6em;
+}
+.nav>li>a {
+    font-size: 1.1em;
+}
+.html_topbar_left a{
+    background-color: #EE8F02;
+    border-radius: 50px;
+    padding: 10px 30px!important;
+    color: #fff!important;
+}
+.absolute-footer, html {
+    background-color: #00316F;
+}
+.top-divider {
+    margin-bottom: -1px;
+    border-top: 0px solid currentColor;
+    opacity: 0.1;
+}
+#wrapper{
+    border-top: 4px solid #0067e7;
+}
+#footer{
+    border-top: 4px solid #0067e7;
+}
+.pull-left {
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+.counter{
+    font-size: 60px;
+    font-weight: bold;
+}
+.texto{
+    margin-top: 29px;
+    float: right;
+    width: 130px;
+    line-height: 20px;
+}
+.contador .col{
+    padding: 0 15px 0px;
+}
+.contador img{
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.contador .col:hover img{
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+.h4, h4 {
+    font-size: 1.125em;
+    color: #0067E7;
+    font-weight: 100!important;
+    margin-bottom: 0px;
+}
+.h1, h1 {
+    font-size: 1.7em;
+    line-height: 1.3;
+    color: #00316F;
+}
+.banner h4 {
+padding: 0;
+    color: #ffffff!important;
+    font-size: 1.3em;
+    font-weight: bold!important;
+    margin-top: .6em;
+    margin-bottom: 0em;
+}
+.icon-menu:before {
+    content: "\f149";
+    font-family: Flaticon;
+}
+.banner h2, .banner h3, .banner h1 {
+    padding: 0;
+    font-weight: 600;
+    margin-top: 0em;
+    margin-bottom: .2em;
+    line-height: 1;
+}
+.secondary, .checkout-button, .button.checkout, .button.alt {
+    background-color: #ee8f02;
+}
+.oculto{display: none;}
+.descarga:before{
+        content: "";
+    position: absolute;
+    background-image: url("../../uploads/2018/07/prodcutos-softwaregetsion-icono-descarga.png");
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+top: 13px;
+    left: 7px;
+}
+.botones .button{
+    padding: 0 0.5em 0 2em;
+}
+.container-width, .full-width .ubermenu-nav, .container, .row {
+    max-width: 1180px;
+}
+.imagen img{
+    position: absolute;
+        bottom: -480px;
+}
+.porque .col-inner{
+    position: relative;
+    padding: 50px 120px!important;
+}
+.porque .col-inner ul li {
+    margin-left: 6.3em;
+}
+.porque ul li{
+    list-style: none;
+    position: relative;
+}
+.porque img{
+position: absolute;
+    left: -89px;
+    top: 0px;
+    width: 70px;
+}
+.banner {
+    position: relative;
+    background-color: #0067e7;
+    width: 100%;
+    min-height: 30px;
+}
+.puntos:after{
+    content: "";
+    position: absolute;
+    background-image: url(../../uploads/2018/07/menu-pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+
+} 
+
+#text-4 img{
+  -webkit-transition:all .3s ease-out;
+  -moz-transition:all .3s ease-out;
+  -ms-transition:all .3s ease-out;
+  -o-transition:all .3s ease-out;
+  transition:all .3s ease-out;
+}
+
+#text-4 img:hover {
+  -webkit-transform:translate(0px,-10px);
+  -moz-transform:translate(0px,-10px);
+  -ms-transform:translate(0px,-10px);
+  -o-transform:translate(0px,-10px);
+  transform:translate(0px,-10px);
+}
+.imagenproductos img{
+    border: 0px solid #fff;
+}
+.imagenproductos img{
+    border: 0px solid #fff;
+}
+.imagenproductos h3{
+   line-height: 20px;
+}
+
+
+.footer-wrapper{
+    color: #fff;
+}
+
+.footer-wrapper span{
+    background-color: #0067e7;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin-top: 0px;
+    float: left;
+}
+.footer-wrapper span i{
+   color: #00316F;
+       font-weight: 700;
+}
+.accordion-title {
+    font-size: 90%;
+    padding: .6em 2.3em;
+    display: block;
+    position: relative;
+    border-top: 1px solid #ddd;
+    transition: border 200ms ease-out, background-color .3s;
+}
+.accordion-inner {
+    padding: 1em 2.3em;
+    font-size: 90%;
+    color: #b5b5b5;
+}
+.accordion-inner p{
+    margin-bottom: 0px;
+}
+.accordion-title.active {
+    border-color: #dddddd;
+    color: #777;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0);
+}
+.accordion .toggle {
+    right: 0!important;
+        left: unset;
+}
+.modulo h3{
+   color: #00316F; 
+       line-height: 20px;
+}
+.modulo{
+   color: #777; 
+}
+.modulo p{
+    margin-bottom: 0px;
+        color: #777;
+}
+.modulo img{
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.modulo .col-inner:hover img{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -o-transform:scale(1.1);
+  transform:scale(1.1);
+}
+.toggle i {
+    font-size: 1.8em;
+    transition: all .3s;
+    color: #0067e7;
+}
+.accordion-title.active .toggle i {
+    color: #ccc;
+}
+.toggle {
+    opacity: 1;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.mfp-close {
+    cursor: pointer;
+    outline: none;
+    z-index: 1046;
+    box-shadow: none;
+    position: fixed;
+    top: 60px;
+    right: 1%;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0;
+    padding: 0;
+    mix-blend-mode: difference;
+    margin: 0 !important;
+    background-color: white;
+    border-radius: 50px;
+    color: #065ecb;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    min-height: 0;
+    width: 40px;
+    -webkit-backface-visibility: hidden;
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, monospace;
+    transition: opacity .3s, transform .3s;
+    transform: translateY(50%) translateZ(1px);
+}
+
+}
